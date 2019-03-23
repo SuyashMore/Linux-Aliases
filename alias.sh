@@ -1,9 +1,17 @@
 
 alias studio="cd ~/Downloads/android-studio/bin; ./studio.sh"
 
+
+# Folder and File Aliases
+alias del="sudo rm -r"
+
 # Git Aliases
 alias gp="git push"
 alias gc="git add . ; git commit -m "
+alias glog="git log --oneline "
+alias glogL="git log"
+
+
 
 # USB PORT Aliases
 alias tty="ls /dev/tty*"
