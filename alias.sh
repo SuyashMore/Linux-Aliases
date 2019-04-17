@@ -21,3 +21,13 @@ alias permit2="sudo chmod 777 /dev/ttyUSB2"
 alias permit3="sudo chmod 777 /dev/ttyUSB3"
 alias permit4="sudo chmod 777 /dev/ttyUSB4"
 alias permit5="sudo chmod 777 /dev/ttyUSB5"
+alias ttylog="sudo dmesg | grep tty"
+
+#ROS Aliases and SSHs
+export ROS_IP="192.168.1.107"
+alias expr='export ROS_MASTER_URI="http://192.168.1.118:11311"'
+alias avitra='ssh avitra@192.168.1.118'
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+alias jetson="ssh nvidia@192.168.1.136"
+alias gui="nautilus"
+alias wal='cmatrix -s -b;clear'
