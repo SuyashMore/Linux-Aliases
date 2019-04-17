@@ -7,6 +7,7 @@ alias del="sudo rm -r"
 
 # Git Aliases
 alias gp="git push"
+alias gpo="git push origin"
 alias gc="git add . ; git commit -m "
 alias glog="git log --oneline "
 alias glogL="git log"
@@ -30,4 +31,6 @@ alias avitra='ssh avitra@192.168.1.118'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias jetson="ssh nvidia@192.168.1.136"
 alias gui="nautilus"
-alias wal='cmatrix -s -b;clear'
+alias wall='cmatrix -s -b;clear'
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get update;sudo apt-get upgrade"
