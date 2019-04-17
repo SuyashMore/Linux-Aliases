@@ -34,3 +34,6 @@ alias gui="nautilus"
 alias wall='cmatrix -s -b;clear'
 alias update="sudo apt-get update"
 alias upgrade="sudo apt-get update;sudo apt-get upgrade"
+
+alias source_rc="source ~/.bashrc"
+alias vim_rc="vim ~/.bashrc"
