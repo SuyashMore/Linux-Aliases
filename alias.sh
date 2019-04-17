@@ -9,6 +9,10 @@ alias gpo="git push origin"
 alias gc="git add . ; git commit -m "
 alias glog="git log --oneline "
 alias glogL="git log"
+alias gb="git branch"
+alias gbnew="git checkout -b"
+alias checkM="git checkout master"
+alias check="git checkout"
 
 # USB PORT Aliases
 alias tty="ls /dev/tty*"
