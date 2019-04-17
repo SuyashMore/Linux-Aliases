@@ -30,3 +30,6 @@ alias upgrade="sudo apt-get update;sudo apt-get upgrade"
 
 alias source_rc="source ~/.bashrc"
 alias vim_rc="vim ~/.bashrc"
+
+# Makes an File Executable 
+alias exe="sudo chmod +x"
