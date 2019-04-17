@@ -18,6 +18,7 @@ alias permit2="sudo chmod 777 /dev/ttyUSB2"
 alias permit3="sudo chmod 777 /dev/ttyUSB3"
 alias permit4="sudo chmod 777 /dev/ttyUSB4"
 alias permit5="sudo chmod 777 /dev/ttyUSB5"
+alias permitAll="sudo chmod 777 /dev/ttyUSB0;sudo chmod 777 /dev/ttyUSB1;sudo chmod 777 /dev/ttyUSB2;sudo chmod 777 /dev/ttyUSB3;sudo chmod 777 /dev/ttyUSB4;sudo chmod 777 /dev/ttyUSB5;sudo chmod 777 /dev/ttyUSB6;sudo chmod 777 /dev/ttyUSB7;sudo chmod 777 /dev/ttyUSB8;sudo chmod 777 /dev/ttyUSB9;sudo chmod 777 /dev/ttyUSB10;sudo chmod 777 /dev/ttyUSB11;sudo chmod 777 /dev/ttyUSB12;sudo chmod 777 /dev/ttyUSB13;clear"
 alias ttylog="sudo dmesg | grep tty"
 
 #ROS Aliases and SSHs
