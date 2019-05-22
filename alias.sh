@@ -37,3 +37,4 @@ alias vim_rc="vim ~/.bashrc"
 
 # Makes an File Executable 
 alias exe="sudo chmod +x"
+alias g++11="g++ -std=c++11 "
